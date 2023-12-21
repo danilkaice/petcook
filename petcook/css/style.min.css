@@ -1,0 +1,459 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: inter;
+}
+/* шрифты */
+@font-face {
+    font-family: 'inter';
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+/* шапка */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.head{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    align-items: center;
+    column-gap: 420px;
+    width: 1100px;
+}
+.logoLinks{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 40px;
+}
+.links{
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    column-gap: 20px;
+    font-weight: bold;
+}
+.iconHead{
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 10px;
+}
+
+/* ссылки */
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #3881fe;
+}
+
+/* основаная секция */
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.osnova{
+    display: grid;
+    grid-template-rows: repeat();
+    width: 1100px;
+    row-gap: 60px;
+}
+
+/*  секция с котом */
+.catDiv{
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.catDiv img{
+    position: absolute;
+    top: 0;
+    right: 40px;
+}
+.blueDiv{
+    background-color:#015fff;
+    border-radius: 50px;
+    height: 500px;
+    align-content: center;
+    display: grid;
+    grid-template-rows: repeat(3, max-content);
+    row-gap: 30px;
+    color: white;
+    padding-left: 100px;
+}
+.headText{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.textP{
+    font-size: 18px;
+}
+button{
+    background-color: #feca40;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+button:hover{
+    cursor: pointer;
+}
+.more{
+    width: 220px;
+    height: 60px;
+}
+
+/*  выбор животного */
+.changePet{
+    display: grid;
+    grid-template-rows: repeat(2, max-content);
+    row-gap: 40px;
+}
+.changePetHead{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    align-items: center;
+    column-gap: 170px;
+}
+.changePetHead span{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.allGoods{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 10px;
+    align-items: center;
+}
+.allGoods:hover{
+    cursor: pointer;
+}
+.allGoods span{
+    font-size: 18px;
+}
+.pets{
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    column-gap: 20px;
+}
+.pet{
+    width: 260px;
+    height: 260px;
+    border-radius: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 10px;
+}
+.pet1{
+    background-image: url(../img/4.jpg);
+}
+.pet2{
+    background-image: url(../img/5.jpg);
+}
+.pet3{
+    background-image: url(../img/6.jpg);
+}
+.pet4{
+    background-image: url(../img/7.jpg);
+}
+.namePet{
+    background-color: white;
+    width: 220px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+}
+
+/*  секция с собаками */
+.dogs{
+    background-image: url(../img/8.jpg);
+}
+.headTextDog{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+/* заказ */
+.product{
+    display: grid;
+    grid-template-rows: repeat(2,min-content);
+    width: 1100px;
+    row-gap: 30px;
+    justify-content: center;
+    justify-items: center;
+}
+/* верхняя часть */
+.order{
+    display: grid;
+    grid-template-columns: repeat(2,max-content);
+    column-gap: 30px;
+}
+.placeOrder{
+    display: grid;
+    grid-template-rows: repeat(4, max-content);
+    row-gap: 20px;
+}
+.orderHead{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 180PX;
+}
+.orderHead span{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.ocenka{
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 10px;
+    align-items: end;
+}
+.ocenka span{
+    font-size: 20px;
+}
+.otz{
+    text-decoration:underline;
+}
+.orderInfo{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 40px;
+}
+.vol{
+    display: grid;
+    grid-template-rows: repeat(3, max-content);
+    row-gap: 20px;
+}
+.vols{
+    display: grid;
+    grid-template-columns: repeat(4,max-content);
+    column-gap: 20px;
+}
+.kg{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.kg:hover{
+    cursor: pointer;
+    background-color: #dee9fb;
+}
+.count{
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    align-items: center;
+    column-gap: 5px;
+}
+.countInp{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    font-size: 16px;
+}
+.count img:hover{
+    cursor: pointer;
+}
+.radDiv{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: repeat(2,max-content);
+    row-gap: 10px;
+    padding: 10px;
+}
+.radHead{
+    display: grid;
+    grid-template-columns: repeat(2,max-content);
+    column-gap: 50px;
+}
+.cost{
+    font-weight: bold;
+}
+.dostInfo{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    font-size: 12px;
+    color: gray;
+    column-gap: 20px;
+    padding-left: 20px;
+}
+.itogOrder{
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 30px;
+}
+.coastInp{
+    text-align: center;
+    border: 1px solid black;
+}
+.schetBtn, .bagBtn{
+    height: 60px;
+}
+.schetBtn{
+    width: 200px;
+}
+.bagBtn{
+    width: 250px;
+}
+
+/* нижняя часть */
+.orderFoot{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 30px;
+    width: 1100px;
+}
+.imgProd{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 30px;
+}
+.orderText{
+    display: grid;
+    grid-template-rows: repeat(2,max-content);
+    row-gap: 10px;
+}
+.orderTextHead{
+    display: grid;
+    grid-template-columns: repeat(3,max-content);
+    column-gap: 20px;
+}
+.orderTextHead span{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.orderTextHead span:hover{
+    color: #dee9fb;
+    background-color: #3881fe;
+    cursor: pointer;
+}
+.opis{
+    background-color: #dee9fb;
+    color: #3881fe;
+}
+
+/* о компании */
+.about{
+    margin-top: 60px;
+    background-color:#015fff;
+    border-radius: 50px;
+    height: 400px;
+    align-content: center;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: repeat(2, max-content);
+    row-gap: 60px;
+    color: white;
+    width: 1100px;
+}
+.aboutHeadP{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.puncts{
+    display: grid;
+    grid-template-columns: repeat(4,max-content);
+    column-gap: 40px;
+    justify-content: center;
+}
+.punct{
+    display: grid;
+    grid-template-rows: repeat(2, max-content);
+    row-gap: 20px;
+    justify-items: center;
+}
+.punct p{
+    text-align: center;
+}
+
+/* о компании с фото */
+.aboutImg{
+    display: grid;
+    grid-template-columns: repeat(2,max-content);
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+}
+.aboutImgText{
+    display: grid;
+    grid-template-rows: repeat(4,max-content);
+    row-gap: 30px;
+}
+.aboutHeadP1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+/* форма */
+.forms{
+    display: grid;
+    grid-template-rows: repeat(3,max-content);
+    row-gap: 30px;
+    justify-items: center;
+    background-color: ghostwhite;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.formText{
+    text-align: center;
+}
+.formInfo{
+    display: grid;
+    grid-template-rows: repeat();
+    row-gap: 20px;
+}
+.formInfo span{
+    font-weight: bolder;
+}
+.formInfo input[type=text]{
+    padding-left: 10px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: ghostwhite;
+}
+.formPets{
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 20px;
+}
+.formPets label{
+    font-weight: bolder;
+}
+.sendBtn{
+    width: 200px;
+    height: 50px;
+    margin-left: 120px;
+}
+
+/* подвал */
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.foot{
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 214px;
+    align-items: center;
+    margin-top: 40px;
+    height: 80px;
+}
+.footImg{
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 20px;
+}

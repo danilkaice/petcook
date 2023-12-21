@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCook</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="icon" href="img/star.svg">
+</head>
+<body>
+    <!-- шапка -->
+    <header>
+        <div class="head">
+            <div class="logoLinks">
+                <div class="logo">
+                    <img src="img/logotype.svg" alt="">
+                </div>
+
+                <div class="links">
+                    <a href="">Кошки</a>
+                    <a href="">Собаки</a>
+                    <a href="">Котята и щенки</a>
+                    <a href="">Другие питомцы</a> 
+                </div>
+            </div>
+
+            <div class="iconHead">
+                <img src="img/search.svg" alt="">
+                <img src="img/cart.jpg" alt="">
+                <img src="img/login.svg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <!-- основная секция -->
+    <section>
+        <div class="osnova">
+            <!--  секция с котом -->
+            <div class="catDiv">
+                <img src="img/Group 193.png" alt="">
+                <div class="blueDiv">
+                    <p class="headText">
+                        Вашему питомцу <br>понравится PetCook
+                    </p>
+                    <p class="textP">
+                        Качественное питание с компексом пребиотиков<br>
+                        для здоровья ваших любимых питомцев
+                    </p>
+                    <button class="more">Смотреть каталог</button>
+                </div>
+            </div>
+
+            <!-- выбор питомцев -->
+            <div class="changePet">
+                <div class="changePetHead">
+                    <span>Большой выбор для всех питомцев</span>
+                    <div class="allGoods">
+                        <span>Смотреть все товары</span>
+                        <img src="img/arrow.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="pets">
+                    <div class="pet pet1">
+                        <div class="namePet">Для кошек</div>
+                    </div>
+                    <div class="pet pet2">
+                        <div class="namePet">Для собак</div>
+                    </div>
+                    <div class="pet pet3">
+                        <div class="namePet">Для котят и щенков</div>
+                    </div>
+                    <div class="pet pet4">
+                        <div class="namePet">Для других питомцев</div>
+                    </div>
+                </div>
+            </div>
+
+            <!--  секция с щенками -->
+            <div class="catDiv">
+                <div class="blueDiv dogs">
+                    <p class="headTextDog">
+                       Более 30 лет в области <br>создания здорового рациона
+                    </p>
+                    <p class="textP">
+                        Компания PetCook основана в 1990 году в Германии. Мы работаем <br>
+                        над созданием не просто вкусного корма для домашних животных, <br>
+                        а научно обоснованного здорового рациона, которое положительно <br>
+                        влияет на состояние питомцев.
+                    </p>
+                    <button class="more">Смотреть каталог</button>
+                </div>
+            </div>
+
+            <!-- секция заказа -->
+            <div class="product">
+                <!-- верхняя часть -->
+                <div class="order">
+                    <img src="img/9.jpg" alt="">
+                    <div class="placeOrder">
+                        <div class="orderHead">
+                            <span>Medium Adult</span>
+                            <div class="ocenka">
+                                <div class="stars">
+                                    <img src="img/star.svg" alt="">
+                                    <img src="img/star.svg" alt="">
+                                    <img src="img/star.svg" alt="">
+                                    <img src="img/star.svg" alt="">
+                                    <img src="img/star.svg" alt="">
+                                </div>
+                                <span class="ball">5.0</span>
+                                <a class="otz">243 отзыва</a>
+                            </div>
+                        </div>
+    
+                        <p class="textP">
+                            Корм сухой полнорационный для взрослых собак средних размеров <br>
+                            (весом от 11 до 25 кг) в возрасте от 1 до 7 лет
+                        </p>
+    
+                        <div class="orderInfo">
+                            <div class="vol">
+                                <span>Выберите объем:</span>
+                                <div class="vols">
+                                    <span class="kg">2 кг</span>
+                                    <span class="kg">5 кг</span>
+                                    <span class="kg">10 кг</span>
+                                    <span class="kg">15 кг</span>
+                                </div>
+    
+                                <div class="radDiv">
+                                    <div class="radHead">
+                                        <div>
+                                            <input type="radio" name="dost" id="rad1" class="dostRadBtn" checked>
+                                            <label for="rad1">Разовая покупка</label>
+                                        </div>
+                                        <span class="cost">2 300 руб.</span>
+                                    </div>
+                                    <div class="dostInfo">
+                                        <span>Доставка 1 раз</span>
+                                        <span>Доставка 250 руб.</span>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="vol">
+                                <span>Выберите количество:</span>
+                                <div class="count">
+                                    <img src="img/minus.svg" alt="">
+                                    <input type="number" class="countInp" readonly>
+                                    <img src="img/plus.svg" alt="">
+                                </div>
+    
+                                <div class="radDiv">
+                                    <div class="radHead">
+                                        <div>
+                                            <input type="radio" name="dost" class="dostRadBtn" id="rad1">
+                                            <label for="rad1">Регулярная доставка</label>
+                                        </div>
+                                        <span class="cost">2 200 руб.</span>
+                                    </div>
+                                    <div class="dostInfo">
+                                        <span>Частота 2 недели</span>
+                                        <span>Бесплатная доставка</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="itogOrder">
+                            <button class="schetBtn">Расчитать</button>
+                            <input type="number" name="" class="coastInp" readonly>
+                            <button class="bagBtn">Добавить в корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- нижняя часть -->
+                <div class="orderFoot">
+                    <div class="imgProd">
+                        <img src="img/10.jpg" alt="">
+                        <img src="img/11.jpg" alt="">
+                    </div>
+
+                    <div class="orderText">
+                        <div class="orderTextHead">
+                            <span class="opis">Описание</span>
+                            <span>Ингридиенты</span>
+                            <span>Отзывы</span>
+                        </div>
+
+                        <p class="orderTextP">
+                            Сухой корм для собак в возрасте от 1 года до 7 лет и старше. <br>
+                            <li>Поддерживает иммунную систему</li>
+                            <li>Обладает высокой усвояемостью и способствует здоровью пищеварительной <br>системы</li>
+                            <li>Способствует здоровью кожи и шерсти</li>
+                            <li>Обладает высокой вкусовой привлекательностью</li>
+                            <li>100% полнорационное и сбалансированное питание</li>
+                            Эксклюзивная формула корма PetCook, богатая высококачественным белком, <br>
+                            способствует поддержанию оптимального пищеварения, которое позволяет собаке <br>
+                            эффективно усваивать питательные вещества. Пребиотики обеспечивают работу<br> 
+                            пищеварительной системы.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- о компании -->
+            <div class="about">
+                <p class="aboutHeadP">
+                    PetCook - это забота о здоровье вашего питомца
+                </p>
+                <div class="puncts">
+                    <div class="punct">
+                        <img src="img/number1.svg" alt="">
+                        <p>Забота о микробиоме<br>питомца</p>
+                    </div>
+                    <div class="punct">
+                        <img src="img/number2.svg" alt="">
+                        <p>Потрясающий<br>деликатный вкус</p>
+                    </div>
+                    <div class="punct">
+                        <img src="img/number3.svg" alt="">
+                        <p>Рекомендовано<br>ветеренарами</p>
+                    </div>
+                    <div class="punct">
+                        <img src="img/number4.svg" alt="">
+                        <p>Полный комплекс<br>микроэлементов</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- о компании с фото -->
+            <div class="aboutImg">
+                <div class="aboutImgText">
+                    <p class="aboutHeadP1">О компании PetCook</p>
+                    <p>
+                        Серьезный научный подход позволяет нам создавать качественное <br>
+                        питание для разных целей: помочь домашнему животному сбросить <br>
+                        лишний вес, помочь ему почувствовать себя активным в пожилом <br>
+                        возрасте или поддержать иммунитет. Приобретая питание PetCook, <br>
+                        вы можете быть уверены, что ваш питомец получает необходимое <br>
+                        количество микроэлементов, а значит он будет здоровый и бодрый.
+                    </p>
+                    <p>
+                        Здоровое пищеварение, крепкие кости и красивая, гладкая шерсть <br>
+                        — это результат тщательно подобранного сочетания ингредиентов, <br>
+                        питательных веществ. Команда PetCook уделяет большое внимание <br>
+                        исследованию микробиомы, его влияния на пищеварительную <br>
+                        систему и общее состояние питомца. Поэтому во всех кормах <br>
+                        содержатся пребиотики, которые восстанавливают и активируют <br>
+                        уникальный баланс микробима.
+                    </p>
+                    <button class="more">Узнать больше</button>
+                </div>
+                <img src="img/12.jpg" alt="">
+            </div>
+
+            <!--  форма -->
+            <div class="forms">
+                <p class="aboutHeadP1">Доверьте выбор специалисту</p>
+                <p class="formText">Если вам нужна помощь в выборе корма для питомца, заполните<br>
+                форму и наш ветеринар свяжется с вами. Врач уточнит состояние<br>
+                здоровья питомца, его образ жизни и подберет правильное питание.</p>
+                <form action="" class="formInfo">
+                    <span>Ваше имя</span>
+                    <input type="text" placeholder="Введите ваше имя">
+                    <span>Телефон</span>
+                    <input type="text" placeholder="+ 7 (___) ___ __ __">
+                    <span>E-mail</span>
+                    <input type="text" placeholder="example@mail.com">
+                    
+                    <span>Для какого животного вы хотите подобрать питание?</span>
+                    <div class="formPets">
+                        <div>
+                            <input type="radio" name="formPets" id="dog">
+                            <label for="dog">Для собаки</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="formPets" id="cat">
+                            <label for="cat">Для кошки</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="formPets" id="any">
+                            <label for="any">Для другого питомца</label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="" id="sogl" checked>
+                        <label for="sogl">Я согласен(а) с условиями на обработку персональных<br>
+                        данных, правилами оказания онлайн-консультирования<br>
+                        и условиями договора-оферты на оказание услуг
+                        </label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="ras">
+                        <label for="ras">Хочу получить информацию от PetCook</label>
+                    </div>
+                    <button type="submit" class="sendBtn">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- подвал -->
+    <footer>
+        <div class="foot">
+            <span>PetCook @ 2023 Все права защищены</span>
+            <div class="footImg">
+                <img src="img/facebook.svg" alt="">
+                <img src="img/vk.svg" alt="">
+                <img src="img/instagram.svg" alt="">
+            </div>
+            <a href="" class="otz">Политика кофиденциальности</a>
+        </div>
+    </footer>
+
+    <!-- скрипты -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
